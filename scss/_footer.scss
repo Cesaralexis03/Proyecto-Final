@@ -1,0 +1,14 @@
+/*FOOTER*/
+footer {
+	background-color: $background-color_5;
+	p {
+		margin: 0;
+		color: $color_4;
+	}
+	.container {
+		height: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+}

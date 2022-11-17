@@ -1,0 +1,32 @@
+/*PLANES*/
+#nuestros-planes {
+	background-color: $background-color_4;
+	color: $color_1;
+	text-align: center;
+	padding: 150px 12px;
+	h2 {
+		margin-top: 0;
+		font-size: 3.5em;
+	}
+	p {
+		display: none;
+	}
+	.carta {
+		background-size: cover;
+		background-position: center center;
+		padding: 80px;
+		margin: 20px;
+		border-radius: 15px;
+	}
+}
+.carta {
+	&:first-child {
+		background-image: linear-gradient( 0deg, rgb(0,0,0,0.5), rgb(0,0,0,0.5) ),url("/img/fitness2.jpg");
+	}
+	&:nth-child(2) {
+		background-image: linear-gradient( 0deg, rgb(0,0,0,0.5), rgb(0,0,0,0.5) ),url("/img/alimentacion.jpg");
+	}
+	&:nth-child(3) {
+		background-image: linear-gradient( 0deg, rgb(0,0,0,0.5), rgb(0,0,0,0.5) ),url("/img/fitness3.jpg");
+	}
+}

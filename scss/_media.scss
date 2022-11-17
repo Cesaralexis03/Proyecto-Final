@@ -1,0 +1,41 @@
+/*MEDIA*/
+@media (min-width: 720px) {
+	header {
+		position: fixed;
+		width: 100%;
+		.container {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		nav {
+			flex-direction: row;
+			padding-bottom: 0;
+			padding-right: 20px;
+		}
+	}
+	#nosotros {
+		.container {
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.texto {
+			width: 50%;
+			max-width: 600px;
+			text-align: initial;
+			padding-left: 30px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		h2 {
+			margin-top: 0px;
+		}
+		.img-container {
+			background-image: url(/img/fitnessnosotros.jpg);
+			background-size: cover;
+			background-position: center center;
+			height: 500px;
+			width: 400px;
+		}
+	}
+}

@@ -1,0 +1,33 @@
+/*HEADER*/
+@mixin anclas{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+header {
+	background-color: $background-color_3;
+	.logo {
+		margin: 0;
+		padding: 25px 30px;
+		font-weight: bold;
+		color: $color_2;
+		font-size: 1.6em;
+	}
+	.container {
+		@include anclas;
+	}
+	nav {
+		@include anclas;
+		padding-bottom: 25px;
+	}
+	a {
+		padding: 5px 12px;
+		text-decoration: none;
+		font-weight: bold;
+		color: $color_3;
+		&:hover {
+			color: $color_3;
+		}
+	}
+}
